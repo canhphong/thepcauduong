@@ -1,0 +1,101 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.et_pb_module.et_pb_image_0.roll-type-img {
+  margin-bottom: 40px;
+}
+.roll-steel-type .et_pb_module.et_pb_text_2,.roll-steel-type .et_pb_module.et_pb_text_1 {
+  margin-bottom: 10px;
+}
+.roll-steel-type table td, .roll-steel-type table th, .roll-steel-type table tr {
+  padding: 6px;
+}
+.roll-steel-type table {
+  border: 1px solid #0f75bc;
+}
+.roll-steel-type table td {
+  border-right: 1px solid #0f75bc;
+  border-top: 1px solid #0f75bc;
+  color: #333;
+}
+.roll-steel-type table tr:first-child td {
+  background: #0f75bc;
+  color: #fff;
+  font-weight: bold;
+}
+.roll-steel-type table tr:nth-child(2) td, .roll-steel-type table tr:nth-child(5) td{
+  background: #e6f9ff;
+  font-weight: bold;
+}
+.roll-type-img  img{
+  display: block;
+  margin: 0 auto 15px;
+}
+.roll-item img {
+  display: block;
+  margin: 0 auto 15px;
+}
+.roll-item a {
+  color: #0f75bc;
+  font-size: 20px;
+}
+.roll-steel-type .et_pb_row_1 {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.roll-group {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+  .roll-steel-type .et_pb_row_1,.roll-steel-type .et_pb_row_2 {
+    width: 95%;
+  }
+  .roll-steel-type .et_pb_column_2 {
+    width: 32% !important;
+  }
+  .roll-steel-type .et_pb_column_1 {
+    width: 65% !important;
+    margin-right: 3%;
+  }
+  .roll-steel-type .et_pb_row_2 .et_pb_column {
+    width: 48% !important;
+    margin: 0 2%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .roll-group {
+    padding-top: 0;
+    padding-bottom: 25px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .roll-steel-type .et_pb_row_1 {
+    display: block;
+  }
+  .roll-steel-type .et_pb_column_2, .roll-steel-type .et_pb_column_1 {
+    float: none;
+    display: block;
+  }
+  .roll-steel-type .et_pb_column_1 {
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+  .roll-steel-type .et_pb_column_1_3.et_pb_column_2 {
+    width: 95% !important;
+    margin: 30px auto auto !important;
+  }
+  .roll-item a {
+    font-size: 14px;
+  }
+  .roll-steel-type .rpwe_widget.recent-posts-extended {
+    margin-bottom: 30px !important;
+  }
+  .roll-steel-type .et_pb_column_0 {
+    margin-bottom: 0;
+  }
+}</style>
+<!-- end Simple Custom CSS and JS -->

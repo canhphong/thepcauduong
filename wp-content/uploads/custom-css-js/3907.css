@@ -1,0 +1,110 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.steel-street .et_pb_row_1 {
+  padding: 0;
+}
+.steel-street .et_pb_text_2 img {
+  width: 95%;
+  display: block;
+  margin: 0 auto 25px;
+}
+.steel-street .et_pb_text_2 p {
+  font-size: 20px;
+}
+.steel-street #rpwe_widget-2 {
+  margin-bottom: 0;
+}
+.steel-street .et_pb_row_3 {
+  background: #e6f9ff;
+  max-width: 100%;
+  width: 100%;
+}
+.steel-street .et_pb_row_4 {
+  	width: 100%;
+    padding: 0 0 40px;
+    background: #e6f9ff;
+    max-width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+.steel-street .et_pb_row_4 .et_pb_column_1_4 {
+    margin-right: 20px !important;
+}
+.steel-street .et_pb_section_2 {
+  padding-top: 40px;
+}
+.steel-street .et_pb_row_4 .et_pb_column_1_4 p {
+  text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+@media screen and (max-width: 1024px){
+  .steel-street .et_pb_column_2 {
+    width: 65% !important;
+    margin-right: 5% !important;
+  }
+  .steel-street .et_pb_column_3 {
+    width: 30% !important;
+  }
+  .steel-street .et_pb_row_4 .et_pb_column_1_4 {
+    width: 23% !important;
+    margin-right: 15px !important;
+    margin-bottom: 15px;
+  }
+  .steel-street .et_pb_column_1_4.et_pb_column_8 {
+    margin-right: 0 !important;
+  }
+  .steel-street .et_pb_column_0,.steel-street .et_pb_column_1 {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 768px){
+  .steel-street .et_pb_row_4 .et_pb_column_1_4 {
+    width: 45% !important;
+  }
+  .steel-street .et_pb_column_3 {
+    width: 32% !important;
+  }
+   .steel-street .et_pb_column_2 {
+    width: 65% !important;
+     margin-right: 3% !important;
+  }
+  .steel-street .et_pb_column.et_pb_column_6 {
+    margin-right: 0 !important;
+  }
+ }
+  @media screen and (max-width: 568px){
+    .steel-street .et_pb_column_2 {
+      width: 95% !important;
+      margin: 0 auto 30px !important;
+      float: none;
+      display: block;
+    }
+    .steel-street .et_pb_column.et_pb_column_3 {
+      width: 95% !important;
+      display: block;
+      margin: 0 auto !important;
+      float: none;
+  	}
+    .steel-street .et_pb_column_4 {
+      margin: 10px auto;
+    }
+    .steel-street .et_pb_text_2 p {
+      font-size: 17px;
+    }
+  }
+@media screen and (max-width: 480px){
+  .steel-street .et_pb_row_4 .et_pb_column.et_pb_column_1_4 {
+    width: 90% !important;
+    margin: 0 auto 20px !important;
+    display: block;
+    float: none;
+  }
+  .steel-street .et_pb_row_4 {
+    display: block;
+    padding: 0 0 10px;
+  }
+}</style>
+<!-- end Simple Custom CSS and JS -->

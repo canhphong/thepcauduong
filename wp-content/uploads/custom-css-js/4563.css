@@ -1,0 +1,57 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#et-navigation li#menu-item-867 {
+  margin-left: 60px !important;;
+}
+
+.logo-id {
+    margin: 0 auto;
+    position: relative;
+    background: #fff;
+    margin-bottom: -32px;
+    left: 15px;
+    z-index: 99999;
+    text-align: center;
+    border: 1px solid #1613ef;
+}
+
+#et-navigation #et-menu {
+    background: #01518C;
+}
+#et-navigation #et-menu a {
+   color: #fff
+}
+#et-navigation #et-menu #main-header {
+	width: 100%
+}
+#et-navigation>ul>li>a {
+	font-weight: 100;
+}
+
+#main-header-wrapper .container{
+	width: 100%;
+	max-width: unset;
+}
+.logo-id{
+    display: block !important;
+    width: 100%;
+    background: none;
+    border: none;
+}
+#et-navigation{
+	width: 100%;
+	margin-right: 0 !important;
+}
+#et-navigation>ul>li.menu-item-4563{
+	padding-left: 4%;
+}
+#et-navigation #et-menu{
+	width: 100%;
+}
+#et-navigation li#menu-item-867 {
+    margin-left: 80px !important;
+}
+.et_pb_slider .et_pb_container{
+	height: 600px !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,51 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/*Big title in the head page*/
+#steel_big_title { 
+  font-size: 36px;
+  color: #b01d01!important; 
+}
+.sidebar-box {
+    margin-bottom: 0!important;
+}
+#steel_id { margin-bottom: 30px!important; }
+/*box product on the left of the page*/
+.steel-text p{ 
+  color: black;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.steel-text p:last-child {
+  padding-bottom: 10px;
+}
+.product-steel h2 {
+  padding: 10px 0 0;
+}
+.product-steel h2 a {
+  color: #0f75bc;
+}
+/*Custom css for box thép cuộn*/
+.product .et_pb_row_2 {
+    justify-content: space-between;
+    -justify-content: space-between;
+    display: flex;
+    display: -webkit-flex;
+    padding-bottom: 0;
+}
+.product .et_pb_column_3, .product .et_pb_column_2 {
+    margin-right: auto;
+    width: 33%;
+}
+
+
+/*hide post comment and reply in introduce post*/
+.post-footer,
+.post-nav,
+#comment-wrap {
+  display: none;
+}
+/**/
+.roll-steel .et_pb_text_0 {
+    text-align: left;
+}</style>
+<!-- end Simple Custom CSS and JS -->

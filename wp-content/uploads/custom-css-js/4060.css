@@ -1,0 +1,130 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.post-detail #main-content .container {
+  width: 100%;
+  max-width: 100%;
+}
+.post-detail #main-content {
+  padding-top: 0;
+}
+.post-detail #main-content article {
+  max-width: 100%;
+  padding: 0;
+}
+.post-detail .title-red {
+  margin: 10px auto;
+}
+.post-detail .et_pb_column_0 img {
+  display: block;
+  max-width: 700px;
+  margin: 30px auto 10px;
+}
+.post-detail #footer {
+  margin: 0;
+}
+.post-detail .title-group {
+  width: 100%;
+  max-width: 100%;
+  padding: 15px 0 0;
+  background: #e6f9ff;
+}
+.post-detail .related-group {
+  width: 100%;
+  max-width: 100%;
+  background: #e6f9ff;
+  width: 100%;
+  padding: 0 0 25px;
+  background: #e6f9ff;
+  max-width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.post-detail .et_pb_column_1_4 {
+  margin-right: 20px !important;
+}
+.post-detail .et_pb_column_1_4 p{
+    text-align: center;
+}
+.related-title {
+  font-weight: bold;
+  font-size: 17px;
+}
+.post-detail .et_pb_section_1 {
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 1024px) {
+  .post-detail .et_pb_column_1_4 {
+  	margin-right: 15px !important;
+    width: 23% !important;
+  }
+  .title-group .et_pb_column {
+    margin-bottom: 10px;
+  }
+  .post-detail .et_pb_column_0 img {
+    width: 70%;
+  }
+  .post-detail .et_pb_section_2 {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .post-detail .et_pb_column.et_pb_column_1_4 {
+    width: 45% !important;
+    margin-bottom: 15px;
+  }
+  .post-detail .et_pb_column_1_4:nth-of-type(2n) {
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 568px) {
+  .post-detail .et_pb_column_0 img {
+    width: 90%;
+  }
+  .post-detail .et_pb_column_0 p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .post-detail .et_pb_row  .et_pb_column.et_pb_column_1_4 {
+    width: 90% !important;
+    margin: 0 auto 20px !important;
+    display: block;
+  }
+  .title-group .title-red {
+    font-size: 25px;
+  }
+}
+.news .entry-title {
+  line-height: 0.7 !important;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;     /* fallback */
+   max-height: 54px;      /* fallback */
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.rpwe-block h3 {
+    line-height: 0.7 !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: 65px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+@media screen and (max-width: 770px) {
+	.rpwe-block h3 {
+    line-height: 0.7 !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: 58px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}</style>
+<!-- end Simple Custom CSS and JS -->

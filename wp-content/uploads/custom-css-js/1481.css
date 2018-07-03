@@ -1,0 +1,145 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.news-sidebar .widgettitle {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  text-align: center;
+  color: #006bb3 !important;
+  border-top: 7px solid #0f75bc;
+  background: linear-gradient(to top,#9bc7f4,white);
+  padding: 10px 20px;
+  letter-spacing: 0;
+}
+.news .cat-post-widget {
+  margin-bottom: 0 !important;
+}
+.news-sidebar .et_pb_widget li a {
+   color: #996600;
+   font-size: 17px;
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+}
+.news .news-blog {
+  box-shadow: 0 0;
+  margin-bottom: 10px;
+}
+.news .title-blue {
+  margin-bottom: 20px;
+}
+.news .et-accent-color {
+  font-size: 19px;
+  color: #006bb3 !important;
+  font-weight: bold;
+}
+.news .et_pb_column_0 {
+  margin-right: 2.9%;
+  width: 69.5% !important;
+}
+.news .new-recruitment {
+  width: 27.6% !important;
+}
+.news .entry-title {
+  line-height: 0;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+}
+/*.news .et_pb_column_2 {
+  width: 27.6% !important;
+}*/
+.news .posts-blog-feed-module .excerpt p {
+  padding-bottom: 0;
+}
+.news .posts-blog-feed-module .hentry {
+  padding: 5px 0 15px;
+  border-radius: 0;
+  margin-bottom: 25px;
+}
+.news .btn-news-info button {
+  background: linear-gradient(#fff,#d8d8d8);
+  border-bottom: 3px solid #555555;
+  font-size: 15px;
+  color: inherit;
+}
+.news .btn-news-info button:hover {
+  opacity: 0.8;
+}
+.news .info-hire img {
+  display: block;
+  margin: 0 auto;
+}
+.news .widget_recent_entries li {
+  background: linear-gradient(#fff, #e9f2fb);
+  background: -webkit-linear-gradient(#fff, #e9f2fb);
+  background: -moz-linear-gradient(#fff, #e9f2fb);
+  padding: 0;
+}
+@media (max-width: 1024px) {
+  .news .et_pb_row_0 {
+    width: 95%;
+  }
+  .info-hire {
+    margin-bottom: 30px;
+  }
+   .news .posts-blog-feed-module.standard .hentry.type-post.has-post-thumbnail .header {
+    width: 35%;
+  }
+  .news .et_pb_section_1 {
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .news .et_pb_column_0 {
+  	margin-right: 0;
+  	width: 100% !important;
+    margin-bottom: 10px;
+  }
+  .news .new-recruitment {
+    width: 100% !important;
+  }
+  .widget_recent_entries {
+    margin-bottom: 35px !important;
+  }
+  .news .et_pb_sidebar_0 {
+    margin-bottom: 0 !important;
+  }
+  
+}
+
+
+/*CSS for Readmore button*/
+.news .read-more-button {    
+    color: #af0000!important;
+    background: #fff!important;
+    border-width: 0px!important;
+    border-radius: 0px;
+    letter-spacing: 0px;
+    font-size: 14px;
+    font-family: 'Arial',Helvetica,Arial,Lucida,sans-serif!important;
+    padding-left: 0.7em;
+    padding-right: 2em;
+  	text-transform: none;
+}
+/*.news a.read-more-button::after {
+	content: '\003e\003e';
+    font-weight: bold;
+
+
+.news .read-more-button:after {
+    content: '>>';
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+}}*/
+
+.news .read-more-button:after {
+  line-height: 1.7em;
+  font-size: 14px!important;
+  opacity: 1;
+  margin-left: .3em;
+  left: auto;
+  display: inline-block;
+}
+
+.posts-blog-feed-module.standard .hentry.type-page.has-post-thumbnail .header {width: 25%;}</style>
+<!-- end Simple Custom CSS and JS -->

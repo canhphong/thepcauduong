@@ -1,0 +1,121 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#et-info .et-extra-icon {
+  background: linear-gradient(#f2f2f2,#999999) !important;
+  line-height: 1.7;
+}
+#et-info .et-extra-icon:before {
+  color: #000;
+}
+#et-info .et-extra-icon:hover {
+  background: -moz-linear-gradient(#3385ff,#003d99) !important;
+  background: -webkit-linear-gradient(#3385ff,#003d99) !important;
+  background: linear-gradient(#3385ff,#003d99) !important;
+}
+#et-info .et-extra-icon:hover:before {
+  color: #fff;
+}
+#top-header {
+  background: #333333;
+  padding: 5px 0;
+}
+header.header .et-trending {
+  padding: 0;
+}
+.et-extra-icon-facebook {
+  width: 25px;
+  height: 25px;
+}
+#et-info {
+  align-items: center;
+  -webkit-align-items: center;
+  margin: 0;
+}
+.lang_sp {
+  display: flex !important;
+  display: -webkit-flex !important;
+  align-items: center;
+  -webkit-align-items: center;
+}
+#et-secondary-nav {
+  margin: 0;
+}
+#et-info .et-top-search {
+  margin: auto auto auto 15px;
+}
+.multi_lang_sp_vi {
+  margin-right: 5px;
+}
+.multi_lang_sp_eng {
+  margin-right: 15px !important;
+}
+#et-info .et-top-search .et-search-field {
+  background: #fff;
+  color: #6f6f6f;
+  padding: 6px 10px 5px;
+  font-size: 15px;
+  width: 200px;
+}
+#et-info .et-top-search .et-search-submit:before {
+  color: #0673bc;
+  font-size: 20px;
+}
+#et-info .et-top-search .et-search-submit {
+  margin-top: -10.5px;
+}
+.map-hotline, .map-hotline p, .map-hotline a {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.hotline p{
+  color: #f50000;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.maps-visit {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  
+}
+.maps-visit a {
+  color: #fff;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  line-height: .7;
+  margin-right: 5px;
+}
+.flag {
+  display: none;
+}
+@media screen and (max-width: 1024px){
+  .flag {
+  	display: flex;
+    display: -webkit-flex;
+    align-items: center;
+  -webkit-align-items: center;
+    margin-left: 10px;
+}
+  #et-info .et-top-search {
+    margin-left: 10px;
+  }
+  .multi_lang_sp_eng {
+    margin-right: 0 !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  #et-info .et-top-search {
+    margin: 10px 0 0 !important;
+  }
+    #et-info .et-top-search .et-search-field {
+    width: 100%;
+  }
+}</style>
+<!-- end Simple Custom CSS and JS -->

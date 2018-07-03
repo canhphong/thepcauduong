@@ -1,0 +1,33 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.history .at-read-more {
+	color: red !important;
+}
+.history .timeline-box {
+	background: #0c71c3!important;
+}
+@media screen and (max-width: 1024px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .history .at-read-more {
+	color: red !important;
+}
+  }
+
+@media screen and (max-width: 768px) {
+  .history .module-bread li {
+	font-size: 15px;
+}
+  }
+
+.history .timeline-main-title {display:none;}
+
+.history .et_pb_column_1 {
+	margin-top: -100px;
+}
+.history .ctl_read_more {
+	display: none;
+}</style>
+<!-- end Simple Custom CSS and JS -->

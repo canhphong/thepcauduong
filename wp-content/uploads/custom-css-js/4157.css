@@ -1,0 +1,34 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.recruitment-table {
+  margin: 20px auto;
+}
+.recruitment-table td {
+  border-right: 1px solid #E5E5E5;
+}
+.recruitment-table tr:nth-of-type(2n) {
+  background: #e6f5ff;
+}
+@media screen and (max-width: 1024px) {
+  .category-tuyen-dung .et_pb_column_0 {
+    margin-bottom: 0;
+  }
+   .recruitment-table {
+  	margin: 10px auto 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .recruitment-table td {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .category-tuyen-dung .et_pb_row_0 {
+  	width: 95%;
+  }
+  .recruitment-table td {
+    font-size: 14px;
+    padding: 5px;
+  }
+}</style>
+<!-- end Simple Custom CSS and JS -->

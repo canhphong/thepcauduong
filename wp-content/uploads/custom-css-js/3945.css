@@ -1,0 +1,82 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.posts-blog-feed-module .post-title {font-size: 35px;}
+.search-header {
+	font-size: 27px;
+    border: 1px solid #0f75bc;
+    padding: 5px 20px;
+    color: #0f75bc;
+}
+.search #main-content .container {
+  width: 100%;
+  max-width: 100%;
+}
+.search #main-content {
+  padding-top: 0;
+}
+.search-header {
+  width: 90%;
+  max-width: 1080px;
+  margin: 30px auto auto;
+}
+.search .posts-blog-feed-module .hentry {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 25px;
+}
+.search .et-accent-color {
+  font-size: 24px;
+  color: #006bb3 !important;
+  font-weight: bold;
+}
+.search .entry-title {
+  line-height: 0.4;
+  margin-bottom: 10px;
+}
+.search .et_pb_extra_module {
+  box-shadow: 0 0;
+}
+.search #footer {
+  border-top: 3px solid #0c71c3;
+}
+.search .read-more-button {
+  text-transform: none;
+  background: 0;
+  font-size: 15px;
+  color: #af0000 !important;
+}
+.search .read-more-button:after {
+  content: '\e62f\e62f';
+  display: inline-block;
+  opacity: 1;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.search .post-meta {
+  font-size: 14px;
+}
+@media screen and (max-width: 1024px) {
+  .search .posts-blog-feed-module.standard .hentry.type-post.has-post-thumbnail .header {
+  	width: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .search .et-accent-color {
+    font-size: 20px;
+  }
+  .search-header {
+    font-size: 22px;
+  }
+  .search .entry-title {
+    margin-bottom: 5px;
+  }
+  .search .posts-blog-feed-module .hentry {
+    padding-bottom: 15px;
+  }
+  .search #footer {
+    margin-top: 0;
+  }
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

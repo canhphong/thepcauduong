@@ -1,0 +1,114 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#main-header {
+  padding: 5px 0;
+  border-bottom: 2px solid #0f75bc;
+  background: #fff;
+}
+#et-navigation {
+  margin-right: 11vw;
+}
+#et-navigation li a {
+  color: #0f75bc;
+  font-size: 14px !important;
+}
+#main-header .container {
+  align-items: center;
+  -webkit-align-items: center;
+}
+.header.left-right #et-navigation>ul>li>a {
+  padding: 12px 10px !important;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+#et-navigation>ul>li.menu-item>a:before{
+  width: 0;
+}
+.current-menu-item>a, #et-navigation>ul>li:hover>a {
+  color: #fff;
+  background: linear-gradient(#31aafc,#036fb7);
+  background: -webkit-linear-gradient(#31aafc,#036fb7);
+  background: -moz-linear-gradient(#31aafc,#036fb7);
+}
+.sub-menu .current-menu-item>a {
+  background: 0;
+}
+#et-navigation>ul>li {
+  margin: 0 10px;
+}
+.logo-id {
+  display: flex;
+  display: -webkit-flex;
+}
+#et-menu li>ul {
+	border-top: 0 !important;
+  	background: rgba(0,0,0,0);
+  	box-shadow: 0 0 0;
+  	-webkit-box-shadow: 0 0 0;
+  	-moz-box-shadow: 0 0 0;
+}
+#et-menu li>ul>li {
+  background: rgba(15,117,188,.8);
+  border-bottom: 1px solid #1083d4;
+  padding: 0 15px;
+}
+#et-menu li>ul>li:last-child {
+  border-bottom: 0;
+}
+
+#et-menu li>ul>li a{
+  color: #fff;
+  border-bottom: 0;
+}
+#et-navigation>ul>li>ul {
+  left: 0;
+  width: 295px;
+}
+.sub-menu li a:hover {
+   opacity: 1 !important;
+}
+.sub-menu li:hover a {
+  color: #ffff33 !important;
+}
+@media screen and (max-width: 1290px) {
+  #et-navigation {
+    margin-right: 0;
+  }
+  #et-navigation li a{
+    font-size: 1.5vw !important;
+  }
+  #et-navigation>ul>li {
+    margin: 0 0.5vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+    .logo-id {
+      width: 39px;
+      height: 38px;
+  	}
+  .current-menu-item>a, #et-navigation>ul>li:hover>a {
+    background: 0;
+  }
+  #main-header .container {
+    position: initial;
+  }
+  #et-mobile-navigation nav {
+    background: rgba(15,117,188,.9);
+  }
+  #et-navigation li a {
+    color: #fff;
+  }
+  #et-navigation a {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  #et-navigation li a{
+    font-size: 14px !important;
+  }
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

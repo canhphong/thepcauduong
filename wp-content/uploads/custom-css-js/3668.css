@@ -1,0 +1,78 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.video-page {
+  background: #fff;
+}
+.video_frame {
+  margin-bottom: 0;
+}
+.popup-youtube {
+  display: block;
+  position: relative;
+}
+.html5video-medium-12 .video_image_frame {
+  height: auto;
+}
+.video-page .video_title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #0f75bc;
+}
+.video-page .et_pb_row_1 {
+  padding-top: 0;
+}
+.popup-youtube:focus {
+  outline: 0;
+}
+.video-page .et_pb_module {
+  margin-bottom: 0 !important;
+}
+.mfp-iframe-holder .mfp-close {
+  opacity: 1;
+  top: 1px;
+  right: 0;
+}
+@media screen and (max-width: 1024px) {
+  .video-page .et_pb_row_1{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    width: 95%;
+  }
+  .video-page .et_pb_row_1 .et_pb_column_1_3 {
+    width: 32% !important;
+    margin-right: 2%;
+  }
+  .video-page .et_pb_row_1 .et_pb_column_1_3 .et_pb_module {
+    margin-bottom: 0;
+  }
+  .video-page .et_pb_row_1 {
+  	padding-top: 10px;
+  }
+  .video-page .et_pb_row_0 {
+    padding-top: 15px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .video-page .et_pb_row_1{ 
+    display: block;
+   }
+  .video-page .et_pb_row_1 .et_pb_column_1_3 {
+    width: 90% !important; 
+    float: none;
+    display: block;
+    margin: 0 auto !important; 
+  }
+  .video-row {
+    margin: 0 auto;
+  }
+  .video-page .et_pb_row_0 {
+    padding-top: 5px;
+  }
+  .video-page .et_pb_section_3 {
+    padding-top: 15px;
+  }
+}</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,78 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.photo-page .et_pb_row_1 {
+  padding-top: 0;
+}
+.photo-page .fbx-link {
+  display: block;
+}
+.photo-page .et_pb_column_1_4{
+  width: 23.5%;
+  margin-right: auto;
+}
+.photo-page .et_pb_row_1 {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkitjustify-content: space-between;
+}
+.photo-page .et_pb_text {
+  margin-bottom: 15px !important;
+}
+.photo-page .et_pb_text_9,.photo-page .et_pb_text_10 {
+  margin-bottom: 0 !important;
+}
+.photo-item {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #0f75bc;
+}
+.photo-page .et_pb_row_0 {
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 980px) {
+  .photo-page .et_pb_row_0 {
+  	padding-top: 20px;
+  }
+  .photo-page .et_pb_column_0 {
+  		margin-bottom: 0;
+  }
+  .photo-page .et_pb_row_0 {
+  	padding-bottom: 0;
+  }
+  .photo-page .et_pb_column_1_4 {
+    margin-bottom: 0 !important;
+  }
+  .photo-item {
+    font-size: 17px;
+  }
+  .photo-page .et_pb_text {
+  	margin-bottom: 20px !important;
+  }
+  .photo-page .et_pb_text_9, .photo-page .et_pb_text_10 {
+ 	 margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .photo-page .et_pb_text {
+    margin-bottom: 10px !important;
+  }
+  .photo-page .et_pb_row_0 {
+  	padding-top: 10px;
+  }
+  .photo-page .et_pb_section .et_pb_row .et_pb_column.et_pb_column_1_4 {
+    width: 90% !important;
+    margin: 0 auto !important;
+    float: none;
+  }
+  .photo-page .et_pb_section_2 {
+    padding-top: 15px;
+  }
+}
+
+
+
+</style>
+<!-- end Simple Custom CSS and JS -->

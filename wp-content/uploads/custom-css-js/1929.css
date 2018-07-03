@@ -1,0 +1,131 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.regist {
+  width: 100% !important;
+  max-width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  background: #0c71c3;
+  padding: 10px;
+}
+.regist h3{
+  color: #fff;
+  padding-bottom: 0;
+  font-size: 25px;
+  text-align: right;
+}
+.regist .mc4wp-form-fields {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+  	margin-top: 0;
+}
+.regist .mc4wp-form-fields p:first-child {
+  width: 50%;
+}
+.regist .mc4wp-form-fields p:first-child input {
+  width: 100%;
+  background: #fff;
+  -moz-border-top-right-radius: 0;
+   -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+   -moz-border-bottom-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.regist .mc4wp-form-fields p:last-of-type {
+  width: 20%;
+  -webkit-margin-after: 0;
+}
+.regist input[type=email] {
+  padding: 11px 12px 8px;
+}
+.regist input[type="submit"] {
+  background: #ed1c24 !important;
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+  -webkit-appearance: none;
+  border-top-left-radius: 0 !important;
+  -webkit-border-top-left-radius: 0 !important;
+  -moz-border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  -webkit-border-bottom-left-radius: 0 !important;
+  -moz-border-bottom-left-radius: 0 !important;
+  padding: 9px 0 7px;
+}
+.regist .et_pb_gutters3 .et_pb_column_1_3 {
+  width: 40%;
+}
+.regist .et_pb_row_1 {
+  padding: 0;
+}
+@-moz-document url-prefix() { 
+  .regist input[type="submit"] {
+    padding: 8px 0 7px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .regist h3 {
+    text-align: center;
+  }
+  .regist .mc4wp-form-fields p:first-child {
+    width: 70%;
+  }
+  .regist .mc4wp-form-fields p:last-of-type {
+    width: 25%;
+  }
+  .regist .et_pb_column {
+     margin-bottom: 0 !important;
+  }
+  .regist input[type="submit"] {
+    padding: 9px 0 6px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .regist h3 {
+    font-size: 3.5vw;
+  }
+  .regist .mc4wp-form-fields p:first-child input {
+    font-size: 16px;
+  }
+  .regist .mc4wp-form-fields p:last-of-type input {
+    font-size: 18px;
+  }
+  .et_pb_tabs_controls li a {
+    padding: 4px 10px;
+  }
+   .regist input[type="submit"] {
+    padding: 10px 0 7px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .regist input[type="submit"] {
+    padding: 9px 5px 7.1px;
+  }
+  .regist .mc4wp-form-fields p:first-child input {
+    font-size: 12px;
+    padding: 9px 12px;
+    width: 100%;
+  }
+  .regist .mc4wp-form-fields p:last-of-type input {
+    font-size: 14px;
+    width: 100%;
+  }
+  .regist {
+    display: block;
+  }
+  .regist .mc4wp-form-fields {
+    justify-content: center;
+    -webkit-justify-content: center;
+  }
+  .regist h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

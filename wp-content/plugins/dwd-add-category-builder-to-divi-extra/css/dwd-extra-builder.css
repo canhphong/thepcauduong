@@ -1,0 +1,3 @@
+.single article, .page article, .single-post article {
+	box-shadow: none !important;
+}

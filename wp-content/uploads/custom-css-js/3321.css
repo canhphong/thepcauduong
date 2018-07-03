@@ -1,0 +1,46 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.company-culture .et_pb_column_1 img {
+  display: block;
+  max-width: 700px;
+  margin: 30px auto 10px;
+} 
+.company-culture .et_pb_row_1 {
+  padding: 0 0 60px;
+}
+.company-culture .title-red {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .company-culture .et_pb_column_1 img {
+    width: 70%;
+    margin: 20px auto 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .company-culture .title-red {
+    margin-bottom: 10px;
+  }
+  .company-culture .et_pb_column_0 {
+    margin-bottom: 15px;
+  }
+  .company-culture .et_pb_row_1 {
+  	padding: 0 0 30px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .company-culture .et_pb_column_1 img {
+    width: 90%;
+  }
+  .company-culture .title-red {
+    margin-bottom: 0;
+  }
+   .company-culture .et_pb_column_0 {
+   	 margin-bottom: 10px;
+  }
+  .company-culture .et_pb_column_1 p { 
+  	font-size: 14px;
+  }
+  
+}</style>
+<!-- end Simple Custom CSS and JS -->

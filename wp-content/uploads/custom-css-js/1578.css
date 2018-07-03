@@ -1,0 +1,106 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.timeline-express-read-more-link{color: #0f75bc !important;}
+.timeline-express-read-more-link:after {
+ content: "...";
+}
+.cd-timeline-item-title {color: #0f75bc !important;}
+/*
+*announcement post
+*/
+.single article {
+ max-width: 80%;
+ margin: auto;
+ padding: 10px;
+}
+/*header announcement*/
+h1.entry-title, .timeline-express-single-page-announcement-date {
+    text-align: center;
+}
+h1.entry-title {
+ color: #0f75bc;
+ border-bottom: 2px solid #0f75bc;
+}
+.announcement-banner-image {
+    display: block;
+    margin: 10px auto;
+}
+
+.posts-blog-feed-module.standard .hentry.type-post.has-post-thumbnail .header {width: 25%;}
+.posts-blog-feed-module.standard .hentry.type-post.has-post-thumbnail .post-content {width: 75%;}
+.et_pb_extra_module {border-top: none;}
+.page article {border-top-width: 3px;}
+.posts-blog-feed-module .hentry {padding: 10px;margin-bottom: 10px;}
+
+h1.feed-title {color: #1e73be}
+
+.et_pb_bg_layout_light .et_pb_widget li a:hover {color: #1e73be;}
+
+.et_pb_posts_blog_feed_standard_0 .hentry .read-more-button {background-color: #1e73be;, color: #fff !important;}
+
+/*
+*css trang sản phẩm
+*/
+/*link post Product -T*/
+.et_pb_tab_active a {
+font-size: 18px;
+font-weight: bold;
+ color: #0f75bc!important;
+ border-top: 3px solid #0f75bc; 
+ background: linear-gradient(to top, #76bef4, white);
+}
+/*change background color post carousel  -T*/
+#demo.posts-carousel-module .carousel-item{
+ background-color: #e7f9ff !important;
+}
+
+/*page Liên hệ -T*/
+.main-content {
+  padding: 2%;
+}
+/*box info-contact at left of page Liên hệ -T*/
+.info-contact {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #d1d1d1;
+    padding-bottom: 20px;
+}
+.info-contact:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.info-contact a:hover { color: #00aaad; }
+.main-content a:hover { color: #00aaad; }
+.maps a {
+    font-weight: bold;
+}
+
+
+/*submenu of page index*/
+#et-navigation .sub-menu li a { text-transform: none; }
+
+/*link menu all subpage of index*/
+.module-bread {
+  margin: 0;
+  padding: 2px 5px !important;
+  background-color: #eee;
+  border-top: 2px solid #23429A;
+}
+a.icon-arrow {
+    background: transparent url(/wp-content/uploads/2017/10/icon-arrow.png) no-repeat left center;
+    padding-left: 25px !important;
+}
+.module-bread > li { 
+  display: inline-block;
+  margin-bottom: 0;
+ }
+.module-bread > li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #cccccc;
+} 
+.module-bread > li > a { color: #00f !important; }
+.module-bread > li, .module-bread > li > span { color: #ab0d0d; }
+
+</style>
+<!-- end Simple Custom CSS and JS -->

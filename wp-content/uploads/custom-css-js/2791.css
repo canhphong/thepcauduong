@@ -1,0 +1,120 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.header-title {
+  padding: 2px 10px; 
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.header_title--blue {
+  color: #006bb3; 
+  border-left: 8px solid #96d0fc; 
+}
+.header_title--orange {
+  color: #ff531a; 
+  border-left: 8px solid #fba98f; 
+}
+.vision .et_pb_text {
+  margin-top: auto !important;
+}
+.vision .regist {
+  max-width: 100%;
+}
+.vision .et_pb_section_1 {
+  padding: 15px 0 0px;
+}
+.vision .et_pb_column_1, .vision .et_pb_column_3, .vision .et_pb_column_5, .vision .et_pb_column_7 {
+  margin-right: 15px;
+}
+.vision-text {
+  font-size: 20px;
+}
+ul.vision-text {
+  list-style-type: none;
+}
+.about-vision, .about-mission {
+	display: flex;
+  	display: -webkit-flex;
+  	align-items: center;
+  	-webkit-align-items: center;
+}
+.about-mission {
+  -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+.about-vision-content {
+  width: 55%;
+  margin-right: 5%;
+}
+.about-vision p {
+  width: 40%;
+  text-align: right;
+}
+.about-mission-content {
+  width: 55%;
+  margin-left: 5%;
+}
+.about-mission p {
+  width: 40%;
+  text-align: left;
+}
+.vision .et_pb_row_2, .vision .et_pb_row_3, .vision .et_pb_row_4, .vision .et_pb_row_5 {
+  max-width: 1030px;
+}
+.vision .et_pb_row_6 {
+  margin-top: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .vision .et_pb_column_0 {
+    margin-bottom: 0;
+  }
+  .vision .et_pb_section_2 {
+    padding-top: 20px;
+  }
+} 
+@media screen and (max-width: 768px) {
+  .header-title {
+    font-size: 25px;
+    padding: 4px 0 3px 10px;
+  }
+  .vision-text {
+  	font-size: 15px;
+  }
+   .vision .et_pb_section_1 {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 568px) {
+  .vision .et_pb_row {
+    display: block;
+  }
+  .header-title {
+    font-size: 20px;
+  }
+  .header-title {
+    font-size: 16px;
+    padding: 2px 0 0 10px;
+    line-height: 1.5;
+  }
+  .vision .et_pb_column_1 {
+    margin-bottom: 0;
+  }
+  ul.vision-text {
+    padding-top: 0;
+  }
+  .about-vision, .about-mission {
+    display: block;
+  }
+  .about-vision-content, .about-mission-content {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .about-vision p, .about-mission p {
+    width: 100%;
+  }
+  .about-vision img, .about-mission img {
+    display: block;
+    margin: 0 auto;
+  }
+}</style>
+<!-- end Simple Custom CSS and JS -->
