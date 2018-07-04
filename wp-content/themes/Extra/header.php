@@ -109,7 +109,7 @@ curl_close ($ch);
 						<?php } ?>
 					</div>
 <div class="hotline">
-<p><span>Hotline:</span><img class="alignnone  wp-image-891" src="/wp-content/uploads/2017/10/icon_phone_red.png" /><span>0983 070 071</span></p></div>
+<p><span>Đường dây nóng: </span><img class="alignnone  wp-image-891" src="/wp-content/uploads/2017/10/icon_phone_red.png" /><span> 0983 070 071</span></p></div>
 
 
 				</div><!-- /.container -->

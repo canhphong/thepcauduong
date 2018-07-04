@@ -2,7 +2,6 @@
 <style type="text/css">
 #main-header {
   padding: 5px 0;
-  border-bottom: 2px solid #0f75bc;
   background: #fff;
 }
 #et-navigation {
@@ -69,7 +68,7 @@
    opacity: 1 !important;
 }
 .sub-menu li:hover a {
-  color: #ffff33 !important;
+  color: #EC6A28 !important;
 }
 @media screen and (max-width: 1290px) {
   #et-navigation {

@@ -18,10 +18,11 @@
 }
 
 #et-navigation #et-menu {
-    background: #01518C;
+    background:#EC6A28;
 }
 #et-navigation #et-menu a {
-   color: #fff
+   color: #fff;
+   font-weight: bold !important;
 }
 #et-navigation #et-menu #main-header {
 	width: 100%

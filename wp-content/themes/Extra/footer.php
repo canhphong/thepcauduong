@@ -15,7 +15,7 @@ $footer_above_ad = extra_display_ad( 'footer_above', false ); ?>
 			<div class="container">
 
 				<!-- Footer Info -->
-				<p id="footer-info"><?php printf( et_get_safe_localization( __( 'Copyright &copy;   2018 Công ty TNHH-DV Thép Bình Nguyên. All Rights Reserved.') ), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>' ); ?></p>
+				<p id="footer-info"><?php printf( et_get_safe_localization( __( 'Copyright &copy;   2018 CÔNG TY TNHH THƯƠNG MẠI THÉP BÌNH NGUYÊN. ALL RIGHTS RESERVED') ), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>' ); ?></p>
 
 				<!-- Footer Navigation -->
 				<?php if ( has_nav_menu( 'footer-menu' ) || false !== et_get_option( 'show_footer_social_icons', true ) ) { ?>
