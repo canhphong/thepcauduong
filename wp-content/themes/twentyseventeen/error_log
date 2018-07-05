@@ -1,3 +1,0 @@
-[05-Mar-2018 07:30:27 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_header() in /home/rtayngu41mo/public_html/wp-content/themes/twentyseventeen/404.php on line 13
-[12-Mar-2018 05:49:18 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_template_part() in /home/rtayngu41mo/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
-[15-Mar-2018 04:30:39 Asia/Ho_Chi_Minh] PHP Notice:  Undefined offset: -1 in /home/rtayngu41mo/public_html/wp-content/themes/twentyseventeen/mqpqqdns.php(2) : eval()'d code on line 270

@@ -54,23 +54,15 @@
 }
 /*.home div.post_info .title*/.rpwe-title a{
   font-size: 17px;
-  color: #0f75bc !important;
+  color: #EC6A28 !important;
 }
 .home .et_pb_widget li {
   padding: 7px 10px;
 }
 .recent-posts-extended .widgettitle{
-  background: linear-gradient(#fff,#5eb3f3);
-  background: -webkit-linear-gradient(#fff,#5eb3f3);
-  background: -moz-linear-gradient(#fff,#5eb3f3);
+  background: #fec885;
   border: 1px solid #89c8f4;
-  border-top-left-radius: 5px;
-  -webkit-border-top-left-radius: 5px;
-  -moz-border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  -webkit-border-top-right-radius: 5px;
-  -moz-border-top-right-radius: 5px;
-  color: #b21c01;
+  color: #EC6A28;
   font-size: 20px;
   font-weight: bold;
   border-bottom: 0;

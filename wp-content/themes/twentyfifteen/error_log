@@ -1,4 +1,0 @@
-[26-Feb-2018 11:30:49 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function the_id() in /home/rtayngu41mo/public_html/wp-content/themes/twentyfifteen/content-link.php on line 13
-[04-Mar-2018 14:32:56 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function the_id() in /home/rtayngu41mo/public_html/wp-content/themes/twentyfifteen/content.php on line 13
-[06-Mar-2018 09:07:12 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_header() in /home/rtayngu41mo/public_html/wp-content/themes/twentyfifteen/404.php on line 10
-[06-Mar-2018 18:14:57 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_header() in /home/rtayngu41mo/public_html/wp-content/themes/twentyfifteen/index.php on line 17

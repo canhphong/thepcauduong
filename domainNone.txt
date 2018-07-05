@@ -1,6 +1,0 @@
-%domainPattern%
-admin2017
-admin2016
-qwerty
-abc123
-admin2018

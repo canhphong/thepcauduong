@@ -46,8 +46,7 @@ h1.feed-title {color: #1e73be}
 font-size: 18px;
 font-weight: bold;
  color: #0f75bc!important;
- border-top: 3px solid #0f75bc; 
- background: linear-gradient(to top, #76bef4, white);
+ border-top: 3px solid #fec885; 
 }
 /*change background color post carousel  -T*/
 #demo.posts-carousel-module .carousel-item{

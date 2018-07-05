@@ -1,4 +1,3 @@
-<!-- start Simple Custom CSS and JS -->
 <style type="text/css">
 #main-header {
   padding: 5px 0;
@@ -16,10 +15,7 @@
   -webkit-align-items: center;
 }
 .header.left-right #et-navigation>ul>li>a {
-  padding: 12px 10px !important;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
+  padding: 10px 10px !important;
 }
 #et-navigation>ul>li.menu-item>a:before{
   width: 0;
@@ -108,6 +104,4 @@
     font-size: 14px !important;
   }
 }
-
 </style>
-<!-- end Simple Custom CSS and JS -->
