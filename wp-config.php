@@ -22,7 +22,7 @@
 /** The name of the database for WordPress */
 
 
-define('DB_NAME', 'thepcauduong_local');
+define('DB_NAME', 'thepcauduong_lite_v1');
 /** MySQL database username */
 define('DB_USER', 'root');
 
