@@ -32,6 +32,7 @@
 }
 .product-steel img {
   width: 100%;
+  height: 230px !important;
 }
 
 /*css toggle product sidebar*/

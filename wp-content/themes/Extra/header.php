@@ -78,11 +78,6 @@ curl_close ($ch);
 			<div id="et-info" class="social-search">
 					<!-- .et-extra-social-icons -->
 
-<div class="flag">
-						<a href="/" class="lang_sp multi_lang_sp_vi" ><img src="/wp-content/uploads/2017/10/ico_flag_vn.png" title="Tiếng Việt" alt="Tiếng Việt"></a>
-<a href="/en" class="lang_sp multi_lang_sp_eng" ><img src="/wp-content/uploads/2017/10/ico_flag_usa.png" title="English" alt="English"></a>
-</div>
-
 						<?php } ?>
                
     						<?php if ( $header_vars['output_header_social_icons'] ) { ?>
