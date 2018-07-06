@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   background: none;
-  border: 2px solid #0f75bc;
+  border: 1px solid #0072bc;
 }
 .archive-pagination>.page-numbers li>.page-numbers.current {
   background: none;
@@ -79,10 +79,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .paginated .pagination li a, .archive-pagination>.page-numbers li a {
   line-height: 40px;
-  color: #0f75bc;
+  color: #f68e1f;
 }
 .paginated .pagination li.active, .archive-pagination>.page-numbers li.current, .paginated .pagination li:hover, .archive-pagination>.page-numbers li:hover {
-  background: #0f75bc;
+  background: #f68e1f;
 }
 .paginated .pagination li:hover a , .archive-pagination>.page-numbers li:hover a {
   color: #fff;

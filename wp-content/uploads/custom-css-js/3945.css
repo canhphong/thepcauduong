@@ -3,9 +3,10 @@
 .posts-blog-feed-module .post-title {font-size: 35px;}
 .search-header {
 	font-size: 27px;
-    border: 1px solid #0f75bc;
+    border: 1px solid #ec6a28;
+    border-radius: 25px;
     padding: 5px 20px;
-    color: #0f75bc;
+    color: #ec6a28;
 }
 .search #main-content .container {
   width: 100%;
@@ -15,9 +16,9 @@
   padding-top: 0;
 }
 .search-header {
-  width: 90%;
+  width: 80%;
   max-width: 1080px;
-  margin: 30px auto auto;
+  margin: 10px auto auto;
 }
 .search .posts-blog-feed-module .hentry {
   width: 100%;
@@ -27,7 +28,7 @@
 }
 .search .et-accent-color {
   font-size: 24px;
-  color: #006bb3 !important;
+  color: #EC6A28 !important;
   font-weight: bold;
 }
 .search .entry-title {
@@ -44,7 +45,7 @@
   text-transform: none;
   background: 0;
   font-size: 15px;
-  color: #af0000 !important;
+  color: #0072bc !important;
 }
 .search .read-more-button:after {
   content: '\e62f\e62f';

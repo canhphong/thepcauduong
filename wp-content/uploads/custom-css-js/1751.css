@@ -16,7 +16,7 @@
   color: #fff;
 }
 #top-header {
-  background: #333333;
+  background-color: #0072bc;
   padding: 5px 0;
 }
 header.header .et-trending {
@@ -51,7 +51,7 @@ header.header .et-trending {
 }
 #et-info .et-top-search .et-search-field {
   background: #fff;
-  color: #6f6f6f;
+  color: #ec6a28;
   padding: 6px 10px 5px;
   font-size: 15px;
   width: 200px;

@@ -2059,13 +2059,13 @@ header.header .et-trending {
 }
 #et-info .et-top-search .et-search-field {
   background: #fff;
-  color: #6f6f6f;
+  color: #ec6a28;
   padding: 6px 10px 5px;
   font-size: 15px;
   width: 200px;
 }
 #et-info .et-top-search .et-search-submit:before {
-  color: #0673bc;
+  color: #7ccde6a4;
   font-size: 20px;
 }
 #et-info .et-top-search .et-search-submit {
@@ -2462,10 +2462,9 @@ h1, h2, h3, h4, h5, h6 {
 .module-bread > li > a { color: #00f !important; }
 .module-bread > li, .module-bread > li > span { color: #ab0d0d; }
 .paginated .pagination li, .archive-pagination>.page-numbers li {
-  width: 40px;
+  width: 30px;
   height: 40px;
-  background: none;
-  border: 2px solid #0f75bc;
+  border: 2px solid #ec6a28;
 }
 .archive-pagination>.page-numbers li>.page-numbers.current {
   background: none;
@@ -2473,10 +2472,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .paginated .pagination li a, .archive-pagination>.page-numbers li a {
   line-height: 40px;
-  color: #0f75bc;
+  color: #f68e1f;
 }
 .paginated .pagination li.active, .archive-pagination>.page-numbers li.current, .paginated .pagination li:hover, .archive-pagination>.page-numbers li:hover {
-  background: #0f75bc;
+  background: #f68e1f;
 }
 .paginated .pagination li:hover a , .archive-pagination>.page-numbers li:hover a {
   color: #fff;
