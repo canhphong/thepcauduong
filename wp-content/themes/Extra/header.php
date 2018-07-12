@@ -136,7 +136,7 @@ curl_close ($ch);
       echo ' <a class="logo-id" href="/"> <img src="/wp-content/uploads/2017/10/logo.png"/></a>';
   } 
   else { 
-      echo '<a class="logo-id" href="/en"> <img src="/wp-content/uploads/2017/10/logo.png"/></a>';
+      echo '<a class="logo-id" href="/"> <img src="/wp-content/uploads/2017/10/logo.png"/></a>';
   }
  ?>
 
